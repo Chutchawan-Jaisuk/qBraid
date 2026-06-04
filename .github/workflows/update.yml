@@ -21,7 +21,7 @@ jobs:
 
       - name: Update Course
         id: update
-        uses: qBraid/upload-course-action@main
+        uses: qBraid/upload-course-action@master
         with:
           api-key: ${{ secrets.QBRAID_API_KEY }}
           repo-read-token: ${{ secrets.GITHUB_TOKEN }}
