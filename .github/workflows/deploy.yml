@@ -3,7 +3,7 @@ name: Deploy Course to qBraid
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
     inputs:
       mode:
